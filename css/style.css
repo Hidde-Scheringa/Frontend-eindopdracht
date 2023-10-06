@@ -1,0 +1,548 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    margin-top: 0;
+    border-bottom: solid;
+    background-color: #C0C0C0;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.rightLink a {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3vw;
+    border: solid #DC0000;
+    background-color: #DC0000;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.rightLink a:hover {
+    background-color: #DC0000;
+    border: solid #DC0000;
+    padding: 9px;
+    font-size: 1.1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    padding: 8px;
+    transition: all 0.5s;
+}
+
+nav a:hover {
+    border: 2px solid #FFD700;
+    background-color: #FFD700;
+    border-radius: 3px;
+    padding: 8px;
+
+}
+
+
+.nav-a {
+    display: flex;
+    gap: 1vw;
+    justify-content: flex-end;
+    margin-right: 2vw;
+    flex: 1;
+}
+
+nav img {
+    max-width: 5vw;
+    margin-left: 2vw;
+    flex: 4;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-image: url(../img/enzo-Ferrari.jpg);
+    background-size: cover;
+    background-size: center;
+    height: fit-content;
+    min-height: 100vh;
+    flex: 2;
+}
+
+header h1 {
+    color: #FFD700;
+    padding-top: 30vh;
+}
+
+header p {
+    color: rgb(211, 182, 16);
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header a:hover {
+    border: solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+
+.header-a {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.content-header {
+    width: 31%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+main {
+    border-top: solid;
+    background-color: #aa4141;
+}
+
+main h2 {
+    margin-top: 0;
+    padding-top: 10vh;
+    font-size: 1.8rem;
+}
+
+#title-main {
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    gap: 2vw;
+    width: 65%;
+    margin: auto;
+    align-items: top;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: solid;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #C0C0C0;
+    margin-bottom: 10vh;
+}
+
+article div {
+    display: flex;
+}
+
+article h3 {
+    margin-top: 25vh;
+    color: white;
+}
+
+article a {
+    justify-items: center;
+    text-decoration: none;
+    border: solid rgb(5, 5, 44);
+    background-color: rgb(5, 5, 44);
+    color: white;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 0.5s;
+
+}
+
+article a:hover {
+    transform: scale(1.1);
+}
+
+.first-container {
+    background-image: url(../img/ferrari-412P.jpg);
+}
+
+#fourStars {
+    margin-left: 0px;
+}
+
+.second-container {
+    background-image: url(../img/Ferrari\ F40.jpg);
+}
+
+#fourAndHalfStars {
+    margin-left: 0px;
+}
+
+.third-container {
+    background-image: url(../img/Ferrari\ 250GTO.jpg);
+}
+
+.colordStar {
+    color: rgb(233, 210, 12);
+}
+
+.greyStar {
+    color: grey;
+}
+
+.form-container {
+    background-color: #992727;
+    border-top: solid;
+}
+
+.form-container h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+.form p {
+    margin-bottom: 5px;
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.firstName {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.firstName input {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid #C0C0C0;
+}
+
+.lastName {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.lastName input {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid #C0C0C0;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.email input {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid #C0C0C0;
+}
+
+.cityAndBirthdate {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    padding-top: 10px;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.adress input {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid #C0C0C0;
+}
+
+.dateOfBirth {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.dateOfBirth input {
+    padding: 9.5px;
+    border-radius: 5px;
+    border: solid #C0C0C0;
+}
+
+.onderwerp {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.onderwerp select {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid #C0C0C0;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.message textarea {
+    border-radius: 5px;
+    border: solid #C0C0C0;
+}
+
+.radioBox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.terms {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 1vh;
+    padding-bottom: 10px;
+}
+
+.terms input {
+    padding: 10px;
+}
+
+.button {
+    padding-bottom: 10vh;
+    padding-top: 2vh;
+}
+
+button {
+    width: 40vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    border: solid #C0C0C0;
+    border-radius: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-container {
+    border-top: solid;
+    background-color: #C0C0C0;
+}
+
+.footer-logo img {
+    margin-left: 4vw;
+    margin-top: 7vh;
+    max-width: 5vw;
+    margin-bottom: 10px;
+}
+
+.content-footer {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    flex: 1;
+    margin-right: 3vw;
+}
+
+.copyright {
+    margin-left: 4vw;
+    flex: 5;
+}
+
+.copyright p {
+    margin-top: 0px;
+    margin-right: auto;
+}
+
+.socialmediaLogos {
+    gap: 5px;
+    margin-left: 0px;
+    padding-bottom: 4vh;
+    justify-content: flex-start;
+
+}
+
+.socialmediaLogos a {
+    flex: 1;
+    gap: 10px;
+}
+
+.socialmediaLogos img {
+    height: auto;
+    max-width: 4%;
+}
+
+@media (width <=480px) {
+    body {
+        width: 100vw;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        position: static;
+        padding-left: 10px;
+    }
+
+    nav img {
+        margin-left: 0px;
+        height: auto;
+        max-width: 20vw;
+    }
+
+    .nav-a {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+    }
+
+    .rightLink a {
+        margin-right: 0px;
+        padding-left: 40vw;
+        padding-right: 40vw;
+    }
+
+    header {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(../img/enzo-Ferrari-cropped.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    header h1 {
+        padding-top: 0px;
+    }
+
+    .content-header {
+        width: 85%;
+        margin-top: 15vh;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        gap: 5px;
+    }
+
+    article h3 {
+        margin-top: 22vh;
+        color: white;
+    }
+
+    article {
+        margin-bottom: 10px;
+    }
+
+    .third-container {
+        margin-bottom: 10vh;
+    }
+
+    .form {
+        width: 85%;
+    }
+
+    .names {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cityAndBirthdate {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        width: 86vw;
+    }
+
+    .button {
+        margin: auto;
+    }
+
+    .footer-logo img {
+        height: auto;
+        max-width: 20vw;
+        margin-left: 10vw;
+        margin-top: 3vh;
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .socialmediaLogos {
+        padding-bottom: 2vh;
+    }
+
+    .socialmediaLogos img {
+        height: auto;
+        max-width: 10%;
+    }
+
+    .content-footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+    }
+
+}
